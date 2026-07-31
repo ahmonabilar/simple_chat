@@ -1,11 +1,11 @@
 # REQUIREMENTS
 # pip install ollama
-# ollama pull qwen3-coder:latest
+# ollama pull qwen2.5:latest
 
 import ollama
 
 # Choose a chat-capable model (ensured it is pulled)
-model_name = 'qwen3-coder:latest'
+model_name = 'qwen2.5:latest'
 
 # Initialize conversation with a system prompt (optional) and a user message
 messages = [
